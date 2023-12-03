@@ -5,22 +5,7 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
-  },
-  "emulators": {
-    "functions": {
-      "port": 5001
-    },
-    "firestore": {
-      "port": 8080
-    },
-    "hosting": {
-      "port": 5000
-    },
-    "ui": {
-      "enabled": true
-    },
-    "singleProjectMode": true,
+    ],
     "redirects": [ 
       {
         "source": "/discord",
@@ -53,5 +38,20 @@
         "type": 301
       } 
     ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true,
   }
 }
