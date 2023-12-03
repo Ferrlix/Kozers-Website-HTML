@@ -645,6 +645,43 @@
     height: 90%;
     align-self: center;
   }
+  .index-nav1 {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .index-nav11 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .index-nav21 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .index-nav31 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .index-nav41 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .index-button3 {
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: 0px;
+    border-style: hidden;
+    margin-right: var(--dl-space-space-halfunit);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+  }
+  .index-nav51 {
+    align-self: center;
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
 }
 @media(max-width: 1200px) {
   .index-navbar-interactive {
