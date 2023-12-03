@@ -65,51 +65,6 @@
   line-height: 1.6;
 }
 
-.gallery-card3-gallery-card {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.gallery-card3-image {
-  top: 0px;
-  left: 0px;
-  right: auto;
-  width: 100%;
-  bottom: auto;
-  height: 300px;
-  position: absolute;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .index-container {
   width: 100%;
   display: flex;
@@ -143,7 +98,7 @@
 }
 .index-logo {
   font-size: 2em;
-  font-family: "Lato";
+  font-family: "Oxygen";
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -600,45 +555,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.index-gallery {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.index-gallery1 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fourunits);
-}
-.index-gallery-heading {
-  text-align: center;
-  font-family: "Raleway";
-  line-height: 1.6;
-}
-.index-gallery-sub-heading {
-  color: rgb(153, 153, 153);
-  text-align: center;
-  line-height: 1.6;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-}
-.index-container07 {
-  width: 100%;
-  display: grid;
-  grid-gap: var(--dl-space-space-unit);
-  margin-top: var(--dl-space-space-twounits);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 .index-faq1 {
   flex: 0 0 auto;
   width: 100%;
@@ -669,7 +585,7 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: space-between;
 }
-.index-container08 {
+.index-container07 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -677,7 +593,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.index-container09 {
+.index-container08 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -735,7 +651,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.index-container10 {
+.index-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -801,12 +717,6 @@
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
-  }
-  .index-gallery-sub-heading {
-    text-align: center;
-  }
-  .index-container07 {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media(max-width: 767px) {
@@ -907,17 +817,6 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .index-gallery1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .index-gallery-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .index-container07 {
-    grid-template-columns: 1fr 1fr;
-  }
   .index-footer1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -928,7 +827,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .index-container10 {
+  .index-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -976,12 +875,6 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .index-gallery1 {
-    padding: var(--dl-space-space-unit);
-  }
-  .index-container07 {
-    grid-template-columns: 1fr;
-  }
   .index-footer1 {
     padding: var(--dl-space-space-unit);
   }
@@ -989,7 +882,7 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .index-container10 {
+  .index-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
