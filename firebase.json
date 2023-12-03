@@ -21,35 +21,35 @@
       "enabled": true
     },
     "singleProjectMode": true,
-    "redirects": {
+    "redirects": [ {
       "source": "/discord",
       "destination": "/discord.html",
       "type": 301
-    } ,
-    "redirects": {
+    } ],
+    "redirects": [ {
       "source": "/1",
       "destination": "/votesite1.html",
       "type": 301
-    } ,
-    "redirects": {
+    } ],
+    "redirects": [ {
       "source": "/2",
       "destination": "/votesite2.html",
       "type": 301
-    } ,
-    "redirects": {
+    } ],
+    "redirects": [ {
       "source": "/3",
       "destination": "/votesite3.html",
       "type": 301
-    } ,
-    "redirects": {
+    } ],
+    "redirects": [ {
       "source": "/4",
       "destination": "/votesite4.html",
       "type": 301
-    } ,
-    "redirects": {
+    } ],
+    "redirects": [ {
       "source": "/5",
       "destination": "/votesite5.html",
       "type": 301
-    } 
+    } ]
   }
 }
