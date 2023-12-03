@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "web",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -20,6 +20,36 @@
     "ui": {
       "enabled": true
     },
-    "singleProjectMode": true
+    "singleProjectMode": true,
+    "redirects": {
+      "source": "/discord",
+      "destination": "/discord.html",
+      "type": 301
+    } ,
+    "redirects": {
+      "source": "/1",
+      "destination": "/votesite1.html",
+      "type": 301
+    } ,
+    "redirects": {
+      "source": "/2",
+      "destination": "/votesite2.html",
+      "type": 301
+    } ,
+    "redirects": {
+      "source": "/3",
+      "destination": "/votesite3.html",
+      "type": 301
+    } ,
+    "redirects": {
+      "source": "/4",
+      "destination": "/votesite4.html",
+      "type": 301
+    } ,
+    "redirects": {
+      "source": "/5",
+      "destination": "/votesite5.html",
+      "type": 301
+    } 
   }
 }

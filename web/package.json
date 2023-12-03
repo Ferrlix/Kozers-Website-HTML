@@ -1,7 +1,7 @@
 {
   "name": "kozers-website",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "parcel-bundler": "^1.6.1"
   },
