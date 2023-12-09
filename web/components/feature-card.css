@@ -7,7 +7,7 @@
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: flex-start;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-500);
 }
 .feature-card-icon {
   fill: var(--dl-color-primary1-blue80);
@@ -29,8 +29,11 @@
   line-height: 28px;
 }
 .feature-card-text1 {
-  color: var(--dl-color-gray-800);
+  color: var(--dl-color-gray-white);
   line-height: 1.6;
+}
+.feature-card-root-class-name {
+  background-color: var(--dl-color-gray-500);
 }
 @media(max-width: 767px) {
   .feature-card-feature-card {
