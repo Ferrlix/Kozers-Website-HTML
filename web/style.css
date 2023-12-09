@@ -80,7 +80,6 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: none !important;
 }
 .heading2 {
   font-size: 2.5rem;
