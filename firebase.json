@@ -13,28 +13,28 @@
         "type": 301
       },
       {
-        "source": "/1",
-        "destination": "/votesite1.html",
+        "source": "/votes/1",
+        "destination": "/votes/votesite1.html",
         "type": 301
       },
       {
-        "source": "/2",
-        "destination": "/votesite2.html",
+        "source": "/votes/2",
+        "destination": "/votes/votesite2.html",
         "type": 301
       },
       {
-        "source": "/3",
-        "destination": "/votesite3.html",
+        "source": "/votes/3",
+        "destination": "/votes/votesite3.html",
         "type": 301
       },
       {
-        "source": "/4",
-        "destination": "/votesite4.html",
+        "source": "/votes/4",
+        "destination": "/votes/votesite4.html",
         "type": 301
       },
       {
-        "source": "/5",
-        "destination": "/votesite5.html",
+        "source": "/votes/5",
+        "destination": "/votes/votesite5.html",
         "type": 301
       } 
     ]
