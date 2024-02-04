@@ -36,6 +36,16 @@
         "source": "/votes/5",
         "destination": "/votes/votesite5.html",
         "type": 301
+      },
+      {
+        "source": "/votes/6",
+        "destination": "/votes/votesite6.html",
+        "type": 301
+      },
+      {
+        "source": "/votes/7",
+        "destination": "/votes/votesite7.html",
+        "type": 301
       } 
     ]
   },
