@@ -28,11 +28,30 @@
             background-color: #383838;
         }
     </style>
+    <title>Rules of Kozers Universe</title>
+    <meta
+      name="description"
+      content="The Rules of the Kozers Universe"
+    />
+    <meta property="og:title" content="Kozers.org/rules" />
+    <meta
+      property="og:description"
+      content="The Rules of the Kozers Universe. Read up and be sure to be knowledgable before it backfires!"
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/8b4f2550-5636-4149-9b72-717b1cacdf17/9f71aede-cb77-43e6-937a-ff515e61871d?org_if_sml=1&amp;force_format=original"
+    />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
     <body class="mainPage">
         <div>
-            <h1 class="header">Rules for the <span class="blue">Kozers Universe</span>:</h1>
+            <h1 class="header">Rules for the <a class="blue" href="https://kozers.org" style="text-decoration: none;">Kozers Universe</a>:</h1>
         </div>
-        <span class="paragraph" markdown="1">
+        <span class="paragraph" markdown="1" id="rules">
             <!-- <object data="/test.md" style="height: 700px" width="90%"> -->
             <ol style="color:#01b14a;font-size:23px">
                 <li style="color:#ff4646">No genuine toxicity towards anyone, no matter the situation.
@@ -87,7 +106,37 @@
                         <li> Spamming is not allowed.
                     </ul>
             </ol>
-            <h2 style="color:#d6d6d6;font-weight:900;font-size:40px">NOTE: Roleplay doesnt make you exempt from any rules</h2>
+            <h2 style="color:#d6d6d6;font-weight:900;font-size:40px">NOTE: Roleplay doesnt make you exempt from any <a href="#rules" style="color:#d6d6d6;text-decoration:none">rules</a></h2>
+        </span>
+        <span id="password" onClick="password('admin')">
+            click
         </span>
     </body>
+    <script>
+        function retryPass(fill) {
+            password(fill)
+        }
+        function password(fill) {
+            console.log("password requested")
+            let password = prompt("password?", fill);
+            let text;
+            if (password == "KozersServer1") {
+                alert("Correct password! welcome in")
+                sleep(2000);
+                window.location.href = "https://kozers.org";
+            } else if (password == null || password == ""){
+                stop;
+            } else {
+                retryPass('try again')
+            }
+        }
+        function sleep(milliseconds) {
+          var start = new Date().getTime();
+          for (var i = 0; i < 1e7; i++) {
+            if ((new Date().getTime() - start) > milliseconds){
+              break;
+            }
+          }
+        }
+    </script>
 </head>
