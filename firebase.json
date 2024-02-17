@@ -13,6 +13,11 @@
         "type": 301
       },
       {
+        "source": "/rules",
+        "destination": "/rules.html",
+        "type": 301
+      },
+      {
         "source": "/votes/1",
         "destination": "/votes/votesite1.html",
         "type": 301
